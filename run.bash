@@ -112,7 +112,6 @@ if [[ "x"$curr_prog == "x3_1" ]]; then
 	echo -e "${I_GREEN}In the same file, in the subevent with ${BI_GREEN}ProcID 20${I_GREEN}, try to idenfity the data from the V1190 TDC module."
 	echo -e "V1190 TDC is a 128 channel TDC readout by 4 individual TDC chips (32 input channels per chip)."
 	echo -e "Can you see which words correspond to global header, data header+measurements+trailer, global trailer?"
-	echo -e "One of the data header or data trailer words are disabled in the readout. Which one?"'\n'
 	echo -e "${I_CYAN}Print the first event, look into ${BI_CYAN}ProcID 20${I_CYAN} subevent. How many hits did each of the four TDC record?"
 	echo -e "Write four numbers in a comma separated list e.g. 5,6,7,8${COLOR_OFF}"
 	. $test_dir/3_modules/modules_1.bash
