@@ -11,7 +11,7 @@ Enter the directory:
 cd lmd-training
 ```
 
-After cloning this repository, also clone `ucesb`:
+Also clone `ucesb`:
 ```
 https://git.chalmers.se/expsubphys/ucesb.git
 ```
