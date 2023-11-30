@@ -1,6 +1,16 @@
 ### LMD short tutorial ###
 This repository is used for my short introduction to LMD and all the hex voodoo of DAQ.
 
+Clone this repo:
+```
+https://github.com/kLayz3/lmd-training
+```
+
+Enter the directory:
+```
+cd lmd-training
+```
+
 After cloning this repository, also clone `ucesb`:
 ```
 https://git.chalmers.se/expsubphys/ucesb.git
