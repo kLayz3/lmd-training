@@ -65,11 +65,11 @@ if [[ "x"$curr_prog == "x2_0" ]]; then
 	echo -e "Sometimes the module data will come out in a two's complement fashion. "
 	echo -e "A negative number (say a 16-bit integer) can easily be identified if the highest bit (15th) is a 1"
 	echo -e "Then the absolute value of the number is calculated by flipping all the bits 0 <-> 1 and adding incrementing by 1."
-	echo -e "So for example: the biggest positive 8-bit signed integer 0b 11111111 = 255"
-	echo -e "The smallest negative 8-bit signed integer 0b 10000000 = -(1<<8) = -256"
-	echo -e "Always remember exponentiating two is FUN .. 2^n == (1 << n) $smiley"
+	echo -e "So for example: the biggest positive 8-bit signed integer 0b 11111111 = 127"
+	echo -e "The smallest negative 8-bit signed integer 0b 10000000 = -(1<<8) = -158"
+	echo -e "Always remember exponentiating two is easy .. 2^n == (1 << n) $smiley"
 
-	echo -e '\n'"${I_CYAN}The slice ${BI_CYAN}[27:14]${I_CYAN} of the following word ${BI_CYAN}0x43678001${I_CYAN} represents a signed TDC value of the signal"
+	echo -e '\n'"${I_CYAN}The slice ${BI_CYAN}[27:14]${I_CYAN} of the following word ${BI_CYAN}0x4a678001${I_CYAN} represents a signed TDC value of the signal"
 	echo -e "relative to the trigger signal in units of 1 ns. Enter this value (hint: can be negative)${COLOR_OFF}"
 
 	. $test_dir/2_complement/complement_0.bash
