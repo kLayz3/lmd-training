@@ -15,7 +15,15 @@ if [[ $@ =~ (^|[:space:])--reset($|[:space:]) ]]; then
 	ask_to_proceed; curr_prog=; 
 	$(> "${script_path}/src/.progress")
 	echo -e "${L_ORANGE}Resetting your progress...${COLOR_OFF}"
-	exit
+	exit 1
+fi
+
+# Check for help flag
+if [[ $@ =~ -h ]]; then 
+    echo -e "This program will guide you through the training about GSI LMD format ... "
+	echo -e "${I_GREEN}The script will give you various tasks, and you will need to answer them."
+	echo -e "${L_ORANGE}If you exit this program, don't worry! Your progress is saved, and you will continue from the point where you left.${COLOR_OFF}"
+    exit 1
 fi
 
 # Tests 0_x
