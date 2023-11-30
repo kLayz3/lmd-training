@@ -8,7 +8,7 @@ curr_prog=
 
 # Source any current process from .progress
 curr_prog=$(head -n 1 ${script_path}/src/.progress 2>/dev/null)
-echo "Curr prog: $curr_prog"
+
 # If reset flag given: reset all progress
 if [[ $@ =~ (^|[:space:])--reset($|[:space:]) ]]; then
 	echo "Resetting all progress." 
