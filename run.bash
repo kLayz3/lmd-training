@@ -20,8 +20,11 @@ fi
 
 # Check for help flag
 if [[ $@ =~ -h ]]; then 
-    echo -e "This program will guide you through the training about GSI LMD format ... "
-	echo -e "${I_GREEN}The script will give you various tasks, and you will need to answer them."
+    echo -e "Usage:"
+    echo -e "${I_CYAN}./run.bash [--reset] ${COLOR_OFF}"'\n'
+    echo -e "Reset flag can be passed to reset your progress."'\n'
+    echo -e "${I_GREEN}This program will guide you through the training about GSI LMD format ... "
+	echo -e "The script will give you various tasks, and you will need to answer them."
 	echo -e "${L_ORANGE}If you exit this program, don't worry! Your progress is saved, and you will continue from the point where you left.${COLOR_OFF}"
     exit 1
 fi
