@@ -21,7 +21,10 @@ Enter ucesb and make empty target:
 cd ucesb && make -j4 empty
 ```
 
-Add the exe to path or bashrc:
+Add the exe to path or bashrc from the ``lmd-training`` dir:
 ```
 export PATH=$PATH:$PWD/ucesb/empty/empty
 ```
+
+Follow the presentation `lmd_file_format.pdf`
+
