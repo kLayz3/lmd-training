@@ -1,5 +1,7 @@
-.png
-.pdf
+*.png
+*.pdf
+*.swp
+*.txt
 empty
 dumped_lmd*
 mbslog*

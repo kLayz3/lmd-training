@@ -26,5 +26,6 @@ Add the exe to path or bashrc from the ``lmd-training`` dir:
 export PATH=$PATH:$PWD/ucesb/empty/empty
 ```
 
-Follow the presentation `lmd_file_format.pdf`
+Follow the presentation `lmd_file_format.pdf`. 
+Best is to open the pdf in a browser.
 
